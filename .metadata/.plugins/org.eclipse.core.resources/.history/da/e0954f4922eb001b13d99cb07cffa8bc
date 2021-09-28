@@ -1,0 +1,11 @@
+package com.formation.parking.services;
+
+import java.util.List;
+
+public interface ParkingService {
+	
+	public List< Parking> getListParking();
+		
+	
+
+}

@@ -1,0 +1,6 @@
+package com.example.test2.services;
+
+public interface PersonnesServices  {
+	
+	public Boolean save(Personne p);
+}

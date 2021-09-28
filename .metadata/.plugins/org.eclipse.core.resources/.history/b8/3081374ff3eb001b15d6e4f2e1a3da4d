@@ -1,0 +1,6 @@
+package com.formation.parking.dao.entity;
+
+public class RecordEntity {
+	private FieldsEntity fields;
+
+}

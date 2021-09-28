@@ -1,0 +1,16 @@
+package com.formation.parking.services.impl;
+
+import java.util.List;
+
+import com.formation.parking.model.Parking;
+import com.formation.parking.services.ParkingService;
+
+public class ParkingServiceImpl implements ParkingService {
+
+	@Override
+	public List<Parking> getListParking() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

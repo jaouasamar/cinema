@@ -1,0 +1,9 @@
+package com.example.test2.services;
+
+import com.example.test2.entities.Personne;
+
+public interface PersonnesServices  {
+	
+	public Boolean save(Personne p);
+	
+}

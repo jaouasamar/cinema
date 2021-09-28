@@ -1,0 +1,5 @@
+package com.formation.parking.model;
+
+public class Parking {
+
+}

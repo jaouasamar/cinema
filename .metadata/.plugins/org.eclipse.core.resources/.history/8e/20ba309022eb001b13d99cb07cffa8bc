@@ -1,0 +1,32 @@
+package com.formation.parking.controllers;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.formation.parking.model.Parking;
+
+@RestController
+public class ParkingController {
+
+@RequestMapping(path="/api/parkings", method = RequestMethod.GET)
+public List<Parking> getListeParking(){
+	
+	/*Parking parkingTest = new Parking();
+	parkingTest.setNom("Carrefour");
+	parkingTest.setStatut("Ouvert");
+	parkingTest.setNbrPlacesTotal(200);
+	parkingTest.setNbrPlacesDispo(80);
+	parkingTest.setHeureMaj("20h30");
+	ArrayList<Parking> l = new ArrayList<Parking>();
+	l.add(parkingTest);*/
+	return l;
+	
+	
+
+}
+
+}

@@ -1,0 +1,21 @@
+package com.formation.pj.dao;
+import java.sql.SQLException;
+import java.util.List;
+import java.util.List;
+
+import com.formation.pj.entity.Personnes;
+
+
+
+public interface PersonnesDao {
+
+	public List<Personnes>findAll();
+	public Personnes findById(Integer id);
+	public List<Personnes> findByNom(String nom);
+	public List<Personnes> findByPrenom(String prenom);
+	public Personnes findByMail(String mail);
+	public boolean insertPersonne(Personnes personne);
+	public boolean updatePersonne(Personnes personne);
+	public boolean deletePersonne(Personnes personne);
+
+}

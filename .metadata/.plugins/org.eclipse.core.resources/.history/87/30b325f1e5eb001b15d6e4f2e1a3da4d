@@ -1,0 +1,25 @@
+package com.example.demo;
+
+
+import java.util.List;
+import java.util.Optional;
+import java.util.Integer;
+
+public interface PersonDao {
+
+  Integer addPerson(Integer id, Person person);
+
+  default Integer addPerson(Person person) {
+    
+    return addPerson( person);
+  }
+
+  List<Person> getPeople();
+
+  Optional<Person> getPerson(Integer id);
+
+  int deletePerson(Integer id);
+
+  int updatePerson(Integer id, Person person);
+
+}

@@ -1,0 +1,11 @@
+package com.formation.parking.dao;
+
+import com.formation.parking.dao.entity.RecordEntity;
+import com.formation.parking.dao.entity.ResponseParkingApiEntity;
+
+public interface ParkingApiDao {
+	
+	public List<RecordEntity> Records;
+	
+
+}

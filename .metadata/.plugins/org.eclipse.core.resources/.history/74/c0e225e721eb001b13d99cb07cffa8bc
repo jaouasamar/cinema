@@ -1,0 +1,6 @@
+package com.formation.parking.services;
+
+public interface ParkingService {
+	
+
+}

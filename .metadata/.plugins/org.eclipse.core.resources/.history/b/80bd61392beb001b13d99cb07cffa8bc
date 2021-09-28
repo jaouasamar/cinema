@@ -1,0 +1,13 @@
+package com.formation.parking.dao.entity;
+
+public class FieldsEntity {
+	
+	private String grpIdentifiant;
+	private String grpNom;
+	private String grpDisponible;
+	private String grpExploitation;
+	private String grpStatut;
+	
+	
+
+}

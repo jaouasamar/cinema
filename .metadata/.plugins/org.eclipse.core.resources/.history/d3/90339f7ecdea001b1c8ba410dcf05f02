@@ -1,0 +1,47 @@
+package com.example.test2.services.impl;
+
+import java.util.List;
+
+import com.example.test2.entities.Personne;
+import com.example.test2.services.PersonnesServices;
+
+public class PersonnesServicesImpl implements PersonnesServices {
+
+	@Override
+	public Boolean save(Personne p) {
+		
+	}
+
+	@Override
+	public Boolean delete(Personne p) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Boolean update(Personne p) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Personne getById(Integer id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Personne getByMail(String mail) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Personne> getAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+
+}

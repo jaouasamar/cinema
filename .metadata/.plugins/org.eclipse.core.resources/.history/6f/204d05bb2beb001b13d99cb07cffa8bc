@@ -1,0 +1,9 @@
+package com.formation.parking.dao.entity;
+
+import java.util.List;
+
+public class ResponseParkingApiEntity {
+	
+	public List <RecordsEntity> records;
+
+}

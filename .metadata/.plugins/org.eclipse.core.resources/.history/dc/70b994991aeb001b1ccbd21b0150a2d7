@@ -1,0 +1,13 @@
+package com.formation.parking.model;
+
+import java.util.List;
+
+public class Parking {
+	
+private String nom;
+private Integer nbrPlacesTotal;
+private Integer nbrPlacesDispo;
+private List statut;
+private String  heureMaj;
+
+}

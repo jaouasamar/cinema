@@ -1,0 +1,25 @@
+package com.formation.parking.services.impl;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.formation.parking.model.Parking;
+import com.formation.parking.services.ParkingService;
+
+public class ParkingServiceImpl implements ParkingService {
+
+	@Override
+	public List<Parking> getListParking() {
+		
+		Parking parkingTest = new Parking();
+		parkingTest.setNom("Carrefour");
+		parkingTest.setStatut("Ouvert");
+		parkingTest.setNbrPlacesTotal(200);
+		parkingTest.setNbrPlacesDispo(80);
+		parkingTest.setHeureMaj("20h30");
+		ArrayList<Parking> l = new ArrayList<Parking>();
+		l.add(parkingTest);
+		return l;
+	}
+
+}

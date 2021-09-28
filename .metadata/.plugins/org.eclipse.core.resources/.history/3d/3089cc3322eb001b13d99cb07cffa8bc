@@ -1,0 +1,9 @@
+package com.formation.parking.services;
+
+public interface ParkingService {
+	
+	public List<Parking> getListParking();
+		
+	
+
+}

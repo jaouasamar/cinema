@@ -1,0 +1,11 @@
+package com.formation.parking.controllers;
+
+import com.formation.parking.model.Parking;
+
+public class ParkingController {
+	
+public List<Parking> getListeParking(){
+	return null;
+}
+
+}

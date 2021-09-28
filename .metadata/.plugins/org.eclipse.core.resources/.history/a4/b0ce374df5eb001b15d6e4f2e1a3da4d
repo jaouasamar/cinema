@@ -1,0 +1,55 @@
+package com.formation.parking.model;
+
+import java.util.List;
+
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+public class Parking {
+	
+@JsonProperty(value="idObj")
+private String idObj;
+@JsonProperty(value="grp_nom")
+private String nom;
+@JsonProperty(value="grp_exploitation")
+private Integer nbrPlacesTotal;
+@JsonProperty(value="grp_disponible")
+private Integer nbrPlacesDispo;
+@JsonProperty(value="grp_statut")
+private String statut;
+@JsonProperty(value="grp_horodatage")
+private String  heureMaj;
+
+
+public String getNom() {
+	return nom;
+}
+public void setNom(String nom) {
+	this.nom = nom;
+}
+public Integer getNbrPlacesTotal() {
+	return nbrPlacesTotal;
+}
+public void setNbrPlacesTotal(Integer nbrPlacesTotal) {
+	this.nbrPlacesTotal = nbrPlacesTotal;
+}
+public Integer getNbrPlacesDispo() {
+	return nbrPlacesDispo;
+}
+public void setNbrPlacesDispo(Integer nbrPlacesDispo) {
+	this.nbrPlacesDispo = nbrPlacesDispo;
+}
+public String getStatut() {
+	return statut;
+}
+public void setStatut(String statut) {
+	this.statut = statut;
+}
+public String getHeureMaj() {
+	return heureMaj;
+}
+public void setHeureMaj(String heureMaj) {
+	this.heureMaj = heureMaj;
+}
+
+
+}

@@ -1,4 +1,3 @@
 # cinema
-Application de gestion des cinémas
-Partie Front Angular 12
-Partie Back Spring Boot
+ Partie Back d'une application de gestion des cinémas
+Framework:Spring Boot

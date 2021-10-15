@@ -21,7 +21,7 @@ public class Salle implements Serializable{
 	@Id @GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Long id;
 	private String name;
-	private int nombrePlaces;
+	private Double nombrePlaces;
 	@ManyToOne
 	private Cinema cinema;
 	@OneToMany(mappedBy="salle")

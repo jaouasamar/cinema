@@ -37,6 +37,7 @@ public class Ticket {
 	
 	@ManyToOne
 	
+	
 	private Projection projection;
 	
 }
